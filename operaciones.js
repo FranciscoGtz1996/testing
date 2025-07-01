@@ -11,7 +11,9 @@ const substract = (a,b) =>{
   }
   return;
 };
-const multiply = (a,b) => a * b;
+const multiply = (a,b) => a * b; //Arrow function
+
+
 const divide = (a,b) => {
   if(b !== 0)return a/b;
   if(a === 0 && b === 0)return "No puedes poner 0 en los dos argumentos";
